@@ -1,0 +1,133 @@
+ffmpeg version N-99416-gad2546e3b3 Copyright (c) 2000-2020 the FFmpeg developers
+  built with gcc 9.3-win32 (GCC) 20200320
+  configuration: --prefix=/ffbuild/prefix --pkg-config-flags=--static --pkg-config=pkg-config --cross-prefix=x86_64-w64-mingw32- --arch=x86_64 --target-os=mingw32 --enable-gpl --enable-version3 --disable-debug --enable-iconv --enable-zlib --enable-libxml2 --enable-libfreetype --enable-libfribidi --enable-gmp --enable-lzma --enable-fontconfig --enable-libvmaf --enable-vulkan --enable-libvorbis --enable-amf --enable-libaom --enable-avisynth --enable-libdav1d --enable-ffnvcodec --enable-cuda-llvm --enable-libglslang --enable-libass --enable-libbluray --enable-libmp3lame --enable-libopus --enable-libtheora --enable-libvpx --enable-libwebp --enable-libmfx --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librav1e --enable-schannel --enable-sdl2 --enable-libsoxr --enable-libsrt --enable-libsvtav1 --enable-libtwolame --enable-libvidstab --disable-libwavpack --enable-libx264 --enable-libx265 --enable-libxvid --enable-libzimg --extra-cflags=-DLIBTWOLAME_STATIC --extra-cxxflags= --extra-ldflags=-pthread --extra-libs=-lgomp
+  libavutil      56. 60.100 / 56. 60.100
+  libavcodec     58.108.100 / 58.108.100
+  libavformat    58. 59.100 / 58. 59.100
+  libavdevice    58. 11.102 / 58. 11.102
+  libavfilter     7. 87.100 /  7. 87.100
+  libswscale      5.  8.100 /  5.  8.100
+  libswresample   3.  8.100 /  3.  8.100
+  libpostproc    55.  8.100 / 55.  8.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
+Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument 'C:/Users/Imran/AppData/Local/Temp/KritaFFmpegProgress.aevccj'.
+Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '24'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '0'.
+Reading option '-i' ... matched as input url with argument 'H:/Game Dev IQ/FunButton/Docs/slimey/frame%04d.png'.
+Reading option '-vf' ... matched as option 'vf' (set video filters) with argument 'palettegen'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option 'H:/Game Dev IQ/FunButton/Docs/palette.png' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument debug.
+Applying option nostdin (enable or disable interaction on standard input) with argument 0.
+Applying option progress (write program-readable progress information) with argument C:/Users/Imran/AppData/Local/Temp/KritaFFmpegProgress.aevccj.
+[file @ 000001e5aaa954c0] Setting default whitelist 'file,crypto,data'
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url H:/Game Dev IQ/FunButton/Docs/slimey/frame%04d.png.
+Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 24.
+Successfully parsed a group of options.
+Opening an input file: H:/Game Dev IQ/FunButton/Docs/slimey/frame%04d.png.
+[image2 @ 000001e5aaad6440] Opening 'H:/Game Dev IQ/FunButton/Docs/slimey/frame0000.png' for reading
+[file @ 000001e5a92b9f00] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001e5aaae0000] Statistics: 1814 bytes read, 0 seeks
+[image2 @ 000001e5aaad6440] Opening 'H:/Game Dev IQ/FunButton/Docs/slimey/frame0001.png' for reading
+[file @ 000001e5aab19d80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001e5aaae0000] Statistics: 1814 bytes read, 0 seeks
+[image2 @ 000001e5aaad6440] Opening 'H:/Game Dev IQ/FunButton/Docs/slimey/frame0002.png' for reading
+[file @ 000001e5aaae0ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001e5aaae0bc0] Statistics: 1812 bytes read, 0 seeks
+[image2 @ 000001e5aaad6440] Opening 'H:/Game Dev IQ/FunButton/Docs/slimey/frame0003.png' for reading
+[file @ 000001e5aaae0ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001e5aab22840] Statistics: 1812 bytes read, 0 seeks
+[image2 @ 000001e5aaad6440] Opening 'H:/Game Dev IQ/FunButton/Docs/slimey/frame0004.png' for reading
+[file @ 000001e5aaae0ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001e5aab22a00] Statistics: 1816 bytes read, 0 seeks
+[image2 @ 000001e5aaad6440] Opening 'H:/Game Dev IQ/FunButton/Docs/slimey/frame0005.png' for reading
+[file @ 000001e5aaae0ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001e5aab22bc0] Statistics: 1816 bytes read, 0 seeks
+[image2 @ 000001e5aaad6440] Opening 'H:/Game Dev IQ/FunButton/Docs/slimey/frame0006.png' for reading
+[file @ 000001e5aaae0ac0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001e5aab22d80] Statistics: 1816 bytes read, 0 seeks
+[image2 @ 000001e5aaad6440] Opening 'H:/Game Dev IQ/FunButton/Docs/slimey/frame0007.png' for reading
+[file @ 000001e5aab22d80] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001e5a92bb600] Statistics: 1801 bytes read, 0 seeks
+[image2 @ 000001e5aaad6440] Opening 'H:/Game Dev IQ/FunButton/Docs/slimey/frame0008.png' for reading
+[file @ 000001e5a92bb600] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001e5a92bb700] Statistics: 1798 bytes read, 0 seeks
+[image2 @ 000001e5aaad6440] Opening 'H:/Game Dev IQ/FunButton/Docs/slimey/frame0009.png' for reading
+[file @ 000001e5a92beec0] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001e5a92bb600] Statistics: 1798 bytes read, 0 seeks
+[image2 @ 000001e5aaad6440] Opening 'H:/Game Dev IQ/FunButton/Docs/slimey/frame0010.png' for reading
+[file @ 000001e5a92bb600] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001e5a92bb7c0] Statistics: 1798 bytes read, 0 seeks
+[image2 @ 000001e5aaad6440] Opening 'H:/Game Dev IQ/FunButton/Docs/slimey/frame0011.png' for reading
+[file @ 000001e5a92bb600] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001e5a92bb7c0] Statistics: 1798 bytes read, 0 seeks
+[image2 @ 000001e5aaad6440] Opening 'H:/Game Dev IQ/FunButton/Docs/slimey/frame0012.png' for reading
+[file @ 000001e5a92bb600] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001e5a92bb7c0] Statistics: 1798 bytes read, 0 seeks
+Input #0, image2, from 'H:/Game Dev IQ/FunButton/Docs/slimey/frame%04d.png':
+  Duration: 00:00:00.52, start: 0.000000, bitrate: N/A
+    Stream #0:0, 13, 1/25: Video: png, 1 reference frame, rgba(pc), 320x180 [SAR 7874:7874 DAR 16:9], 0/1, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: output url H:/Game Dev IQ/FunButton/Docs/palette.png.
+Applying option vf (set video filters) with argument palettegen.
+Successfully parsed a group of options.
+Opening an output file: H:/Game Dev IQ/FunButton/Docs/palette.png.
+Successfully opened the file.
+detected 4 logical cores
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> png (native))
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 4 times
+[graph 0 input from stream 0:0 @ 000001e5aaaefc80] Setting 'video_size' to value '320x180'
+[graph 0 input from stream 0:0 @ 000001e5aaaefc80] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 0:0 @ 000001e5aaaefc80] Setting 'time_base' to value '1/24'
+[graph 0 input from stream 0:0 @ 000001e5aaaefc80] Setting 'pixel_aspect' to value '7874/7874'
+[graph 0 input from stream 0:0 @ 000001e5aaaefc80] Setting 'frame_rate' to value '24/1'
+[graph 0 input from stream 0:0 @ 000001e5aaaefc80] w:320 h:180 pixfmt:rgba tb:1/24 fr:24/1 sar:7874/7874
+[format @ 000001e5aaae3740] Setting 'pix_fmts' to value 'rgb24|rgba|rgb48be|rgba64be|pal8|gray|ya8|gray16be|ya16be|monob'
+[auto_scaler_0 @ 000001e5aaae4040] Setting 'flags' to value 'bicubic'
+[auto_scaler_0 @ 000001e5aaae4040] w:iw h:ih flags:'bicubic' interl:0
+[Parsed_palettegen_0 @ 000001e5aab22980] auto-inserting filter 'auto_scaler_0' between the filter 'graph 0 input from stream 0:0' and the filter 'Parsed_palettegen_0'
+[auto_scaler_1 @ 000001e5aab17340] Setting 'flags' to value 'bicubic'
+[auto_scaler_1 @ 000001e5aab17340] w:iw h:ih flags:'bicubic' interl:0
+[format @ 000001e5aaae3740] auto-inserting filter 'auto_scaler_1' between the filter 'Parsed_palettegen_0' and the filter 'format'
+[AVFilterGraph @ 000001e5aaaddd40] query_formats: 4 queried, 1 merged, 2 already done, 0 delayed
+[auto_scaler_1 @ 000001e5aab17340] picking rgba out of 10 ref:bgra alpha:1
+[swscaler @ 000001e5ab107a80] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_0 @ 000001e5aaae4040] w:320 h:180 fmt:rgba sar:7874/7874 -> w:320 h:180 fmt:bgra sar:1/1 flags:0x4
+[swscaler @ 000001e5ab114fc0] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_1 @ 000001e5aab17340] w:16 h:16 fmt:bgra sar:1/1 -> w:16 h:16 fmt:rgba sar:1/1 flags:0x4
+Output #0, image2, to 'H:/Game Dev IQ/FunButton/Docs/palette.png':
+  Metadata:
+    encoder         : Lavf58.59.100
+    Stream #0:0, 0, 1/24: Video: png, 1 reference frame, rgba, 16x16 [SAR 1:1 DAR 1:1], 0/1, q=2-31, 200 kb/s, 24 fps, 24 tbn, 24 tbc
+    Metadata:
+      encoder         : Lavc58.108.100 png
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 12 times
+[Parsed_palettegen_0 @ 000001e5aab22980] 10(+1) colors generated out of 10 colors; ratio=1.000000
+[Parsed_palettegen_0 @ 000001e5aab22980] Dupped color: FF054A76
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+Clipping frame in rate conversion by 0.000008
+cur_dts is invalid st:0 (0) [init:1 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[out_0_0 @ 000001e5aab64e80] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+[image2 @ 000001e5aaadf080] Opening 'H:/Game Dev IQ/FunButton/Docs/palette.png' for writing
+[file @ 000001e5aab22880] Setting default whitelist 'file,crypto,data'
+[AVIOContext @ 000001e5aab22ec0] Statistics: 0 seeks, 1 writeouts
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed= 3.7x    
+[AVIOContext @ 000001e5aaad6300] Statistics: 0 seeks, 1 writeouts
+video:0kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+Input file #0 (H:/Game Dev IQ/FunButton/Docs/slimey/frame%04d.png):
+  Input stream #0:0 (video): 13 packets read (23491 bytes); 13 frames decoded; 
+  Total: 13 packets (23491 bytes) demuxed
+Output file #0 (H:/Game Dev IQ/FunButton/Docs/palette.png):
+  Output stream #0:0 (video): 1 frames encoded; 1 packets muxed (144 bytes); 
+  Total: 1 packets (144 bytes) muxed
+13 frames successfully decoded, 0 decoding errors

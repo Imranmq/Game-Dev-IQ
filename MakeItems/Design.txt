@@ -1,0 +1,31 @@
+item is ?
+
+item has :
+    Editor Related:
+        name        - any string
+        requirement - different items with different amount
+        output      - yes ? base output to be multiplied with its multiplier then other general multipliers in game logic : output is allowing other items to be made 
+        parent      - yes ? multiplies the output with number of parent item in game logic : it is raw category
+        category    - raw || intermediate || final goods || machines || human people
+        sprite      - sprite name
+        production: - how many per second or how many second per item whichever is greater
+        mountable   - yes ? can be manned (in editor if you select which people will mann this item it becomes yes) by its relevant people item
+    action      - purchase by player
+    automate    - player action or also auto run loop on it        
+    progress    - will show its production progress in UI    
+    bonus       - the bonus multiplier that is increased or decreased by game manager
+    - run the production loop that will produce per second amount of product on gameObject of item
+    - apply any general or product specific bonus received by GameManager
+    - update progress of the next item to GameManager stats if item will take more then 1 second
+
+pin :
+    whenever user pin , that object will be saved with its data to the GameManager
+    user can see anything he pinned from pinned stuff list    
+
+GameManager :
+    - keep game stats that will be saved to manage save load along with any progress of that
+    - manage marketing/other bonus effects on the products
+    - random event after some time that will pick either category and then random items then either give bonus items or take away some items
+    - manage items quantities and increase decrease based on consumption
+    - notify player when something runs out and stops production
+

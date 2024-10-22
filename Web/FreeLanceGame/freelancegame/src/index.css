@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-family: "KaiseiHarunoUmi" !important;
+}
+
+@font-face {
+  font-family: "KaiseiHarunoUmi";
+  src: local("KaiseiHarunoUmi"),
+    url(./Kaisei_HarunoUmi/KaiseiHarunoUmi-Regular.ttf) format("truetype");
+}
